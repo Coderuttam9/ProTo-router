@@ -1,0 +1,97 @@
+.buttom-manu {
+  ul {
+    li {
+      padding: 10px 0px;
+      a {
+        font-family: Poppins, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        padding: 10px 16px 10px 16px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.socail-icon {
+  ul {
+    li {
+      a {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        box-shadow: 0.3px 2.3px 3px 0px;
+        border-radius: 25px;
+
+        font-size: 14px;
+        padding: 8px 8px;
+        font-family: "Courier New", Courier, monospace;
+      }
+      a:hover {
+        background-color: #0088cc;
+        color: #ffffff;
+        transition: background-color 0.3s ease;
+      }
+    }
+  }
+}
+
+.active {
+  background-color: #0088cc;
+  color: #ffffff;
+ 
+}
+
+.top-manu {
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.top-menu-1 {
+  border-right: 1px solid #aca9a9b9;
+  padding-right: 10px;
+  li {
+    svg {
+      font-size: 11px;
+      margin-top: 2px;
+      margin-right: 5px;
+      animation: rotateAnimation 2s linear infinite;
+
+      a {
+        font-size: 13px;
+        color: #ddd;
+      }
+    }
+    svg:hover{
+        @keyframes rotateAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    }
+  }
+}
+
+.top-manu-2{
+    ul{
+        li{
+            a{
+                font-size: 13px;
+                color: #ddd;
+            }
+        }
+    }
+}
